@@ -1,5 +1,4 @@
 import React from "react";
-import Google from "../assets/Google.png";
 import { Link } from "react-router-dom";
 
 function SignupComponent() {
@@ -83,7 +82,7 @@ function SignupComponent() {
                         Sign in with Google
                       </button>
                       <img
-                        src={Google}
+                        src='https://icon2.cleanpng.com/20171220/dxq/google-png-5a3aafee6ff5c8.9595681415137955664586.jpg'
                         className="h-6 ml-10 sm:ml-16  -mt-10 select-none pointer-events-none"
                         alt=""
                         s

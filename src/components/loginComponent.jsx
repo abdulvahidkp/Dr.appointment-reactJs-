@@ -1,5 +1,4 @@
 import React from "react";
-import Google from "../assets/Google.png";
 import { Link } from "react-router-dom";
 
 function loginComponent() {
@@ -49,7 +48,7 @@ function loginComponent() {
                     <button className="border-2 select-none bg-white border-slate-300 text-slate-500 hover:bg-[#edf3f2]  rounded-full pl-12 w-full text-xl font-roboto font-semibold  p-3">
                       Sign in with Google
                     </button>
-                    <img src={Google} className="h-6 ml-10 sm:ml-16  -mt-10 select-none pointer-events-none" alt="" />
+                    <img src='https://icon2.cleanpng.com/20171220/dxq/google-png-5a3aafee6ff5c8.9595681415137955664586.jpg' className="h-6 ml-10 sm:ml-16  -mt-10 select-none pointer-events-none" alt="" />
                   </div>
                 </div>
                 <div className="place-content-center">
