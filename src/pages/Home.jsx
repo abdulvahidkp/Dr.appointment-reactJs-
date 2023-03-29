@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import DrCardsComponent from "../components/DrCardsComponent";
+import HospitalsComponent from "../components/HospitalsComponent";
 
 function HomePage() {
   return (
-    <div>HomePage</div>
-  )
+    <>
+      <DrCardsComponent />
+    </>
+  );
 }
 
-export default HomePage
+export default HomePage;
