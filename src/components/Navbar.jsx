@@ -36,9 +36,9 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-900 hover:underline">
+                <NavLink to="/contact" className="text-gray-900 hover:underline">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
